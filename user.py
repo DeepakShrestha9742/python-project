@@ -5,6 +5,20 @@ import sqlite3
 # CRUD : Creat, Read, Update, Delete
 # 80% - 90% :
 
+
+# creat account in gitHub 
+# create repository
+# git add .
+# git status => chake what happening in our files
+# git commit -m "commit message"
+# copy peste github
+
+
+# git add .
+# git commit -m "your msg"
+# git push origin
+
+
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
